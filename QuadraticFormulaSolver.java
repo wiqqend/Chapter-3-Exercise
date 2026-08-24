@@ -1,6 +1,14 @@
+/*
+Quadratic Formula Solver
+Programmer: Jacob Hartzell
+Date: 8/24/2026
+Purpose: The purpose of this program is to solve the quadratic formula based on the three input values a,b,c 
+and return the roots back to the user
+*/
+
 import java.util.Scanner; 
 
-public class CHP3 {
+public class QuadraticFormulaSolver {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Quadratic Formula Solver ");
